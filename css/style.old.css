@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#navbar {
+	
+	list-style-type: none;
+	border:1px black solid;
+	background-color:#2d2d2d;
+	min-height:22px;
+	color:#ccc;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: left;
+	padding-top: 5px;
+	font-family: arial;
+	padding-top: 10px;
+	word-spacing:15px;
+
+}
+
+#footer{
+	color:#666666;
+	position: absolute;
+	bottom:0px;
+	right: 60px;
+	text-align: right;
+	font-size: 13px;
+	font-family: arial;
+	word-spacing: 5px;
+
+}
+
+img {
+	position: absolute;
+	margin-right: auto;
+	margin-left: 640px;
+	top: 190px;
+
+	
+	}
+
+
+li {
+	display:inline;
+
+}
+#signin {
+	position: absolute;
+	right:50px;
+	top:50px;
+	color: #463E3F;
+	font-family: arial;
+	text-align: center;
+	border:1px gray solid;
+	height:16px;
+	width:60px;
+	border-color: #ccc;
+	margin: auto;
+	padding: 5px;
+	font-size: 13px;
+	background-color: #F0F0F0;
+	border-radius:2px;
+
+	
+}
+
+
+
+input[type="text"] {
+	margin-top: 20px;
+	font-size:20px;
+	margin-top: 280px;
+
+}
+
+#searchbutton  {
+	color: #463E3F;
+	font-family:arial;
+	font-weight: bold;
+	text-align: center;
+	border:1px gray solid;
+	height:16px;
+	width:90px;
+	border-color: #ccc;
+	margin: auto;
+	padding: 5px;
+	font-size: 11px;
+	background-color: #F0F0F0;
+	border-radius:2px;
+	position: relative;
+	top: 13px;
+	right:80px;
+	
+}
+#luckybutton {
+	color: #463E3F;
+	font-family:arial;
+	font-weight: bold;
+	text-align: center;
+	border:1px gray solid;
+	height:16px;
+	width:100px;
+	border-color: #ccc;
+	margin: auto;
+	padding: 5px;
+	font-size: 11px;
+	background-color: #F0F0F0;
+	border-radius:2px;
+	position: relative;
+	top: -15px;
+	left:50px;
+
+}
+
+
+#signin a:link {
+	text-decoration: none;
+	color: #463E3F;
+
+}
+
+#signin a:visited {
+	color: #463E3F;
+
+}
+#navbar a:link{
+	text-decoration: none;
+	color: #ccc;
+}
+#navbar a:hover {
+		color: white;
+	}
+}
+#navbar a:active{
+		color: white;
+	}
+#navbar a:visited {
+	color:#ccc;
+}
+
+#footer a:link{
+	text-decoration: none;
+	color: #666;
+}
+
+
+#footer a:visited {
+	color:#666;
+}
+
